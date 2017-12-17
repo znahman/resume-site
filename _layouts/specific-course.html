@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+  {% include navbar.html %}
+ 
+  
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="container">
+          <a class="btn btn-primary" href="/coursework" role="button">Back to Coursework</a>
+        <h2>{{page.number}} - {{page.title}}</h2>
+        <p><b>{{page.semester}} at {{page.school}}</b></p>
+        <div class="well">
+        <p>{{page.content}}</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

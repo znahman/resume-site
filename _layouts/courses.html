@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+  {% include navbar.html %}
+
+  <body>
+  <div class="container">
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h2><a href="http://inside.mines.edu/CS-home" target="blank"><img src="/assets/pictures/csm-logo.PNG" height="50px" width="50px"></img>Colorado School of Mines - M.S. Computer Science</a></h2>
+        <h3>Spring 2018 - In Progress...</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Textbook</th>
+                    <th scope="col">Course Number</th>
+                    <th scope="col">Course Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for course in site.courses %}
+                {% if course.semester == 'Spring 2018' and course.school == 'Mines' %}
+                <tr>
+                    <td><img src={{course.picture}} height="92" width="78"></img></td>
+                    <td><h4>{{course.number}}</h4></td>
+                    <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+      
+        <h2><a href="http://www.regis.edu/CCIS/Academics/Departments-and-Faculty/Computer-Science.aspx" target="blank"><img src="/assets/pictures/regis-logo.PNG" height="50px" width="50px"></img>Regis University - Computer Science</a></h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Textbook</th>
+                    <th scope="col">Semester</th>
+                    <th scope="col">Course Number</th>
+                    <th scope="col">Course Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for course in site.courses %}
+                {% if course.school == 'Regis' %}
+                <tr>
+                    <td><img src={{course.picture}} height="92" width="78"></img></td>
+                    <td><h4>{{course.semester}}</h4></td>
+                    <td><h4>{{course.number}}</h4></td>
+                    <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>  
+
+      <h2><a href="http://inside.mines.edu/MECH-Home" target="blank"><img src="/assets/pictures/csm-logo.PNG" height="50px" width="50px"></img>Colorado School of Mines - B.S. Mechanical Engineering</a></h2>
+
+            <h3>Fall 2011</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Textbook</th>
+                            <th scope="col">Course Number</th>
+                            <th scope="col">Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for course in site.courses %}
+                        {% if course.semester == 'Fall 2011' and course.school == 'Mines' %}
+                        <tr>
+                            <td><img src={{course.picture}} height="92" width="78"></img></td>
+                            <td><h4>{{course.number}}</h4></td>
+                            <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            <h3>Spring 2012</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Textbook</th>
+                            <th scope="col">Course Number</th>
+                            <th scope="col">Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for course in site.courses %}
+                        {% if course.semester == 'Spring 2012' and course.school == 'Mines' %}
+                        <tr>
+                            <td><img src={{course.picture}} height="92" width="78"></img></td>
+                            <td><h4>{{course.number}}</h4></td>
+                            <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+                
+            <h3>Fall 2012</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Textbook</th>
+                        <th scope="col">Course Number</th>
+                        <th scope="col">Course Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for course in site.courses %}
+                    {% if course.semester == 'Fall 2012' and course.school == 'Mines' %}
+                    <tr>
+                        <td><img src={{course.picture}} height="92" width="78"></img></td>
+                        <td><h4>{{course.number}}</h4></td>
+                        <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table> 
+
+            <h3>Spring 2013</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Textbook</th>
+                        <th scope="col">Course Number</th>
+                        <th scope="col">Course Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for course in site.courses %}
+                    {% if course.semester == 'Spring 2013' and course.school == 'Mines' %}
+                    <tr>
+                        <td><img src={{course.picture}} height="92" width="78"></img></td>
+                        <td><h4>{{course.number}}</h4></td>
+                        <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table> 
+
+            <h3>Summer 2013</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Textbook</th>
+                        <th scope="col">Course Number</th>
+                        <th scope="col">Course Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for course in site.courses %}
+                    {% if course.semester == 'Summer 2013' and course.school == 'Mines' %}
+                    <tr>
+                        <td><img src={{course.picture}} height="92" width="78"></img></td>
+                        <td><h4>{{course.number}}</h4></td>
+                        <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <h3>Fall 2013</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Textbook</th>
+                        <th scope="col">Course Number</th>
+                        <th scope="col">Course Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for course in site.courses %}
+                    {% if course.semester == 'Fall 2013' and course.school == 'Mines' %}
+                    <tr>
+                        <td><img src={{course.picture}} height="92" width="78"></img></td>
+                        <td><h4>{{course.number}}</h4></td>
+                        <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table> 
+
+            <h3>Spring 2014</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Textbook</th>
+                        <th scope="col">Course Number</th>
+                        <th scope="col">Course Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for course in site.courses %}
+                    {% if course.semester == 'Spring 2014' and course.school == 'Mines' %}
+                    <tr>
+                        <td><img src={{course.picture}} height="92" width="78"></img></td>
+                        <td><h4>{{course.number}}</h4></td>
+                        <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            
+            <h3>Fall 2014</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Textbook</th>
+                        <th scope="col">Course Number</th>
+                        <th scope="col">Course Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for course in site.courses %}
+                    {% if course.semester == 'Fall 2014' and course.school == 'Mines' %}
+                    <tr>
+                        <td><img src={{course.picture}} height="92" width="78"></img></td>
+                        <td><h4>{{course.number}}</h4></td>
+                        <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table> 
+
+            <h3>Spring 2015</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Textbook</th>
+                        <th scope="col">Course Number</th>
+                        <th scope="col">Course Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for course in site.courses %}
+                    {% if course.semester == 'Spring 2015' and course.school == 'Mines' %}
+                    <tr>
+                        <td><img src={{course.picture}} height="92" width="78"></img></td>
+                        <td><h4>{{course.number}}</h4></td>
+                        <td><h4><a href="{{ course.url }}">{{ course.title }}</a></h4></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table> 
+        </div>               
+    </main>
+</div>
+  </body>
+</html>
