@@ -15,7 +15,7 @@ permalink: /
   </div>
   
   <p>
-  "Hello World!" This website will serve as an information repository as well as a tool for pratcing web design. Thank you for visiting!
+  "Hello World!" This website will serve as an information repository as well as a tool for practicing web design. Thank you for visiting!
   </p>
   <br>
   <p>

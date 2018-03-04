@@ -6,7 +6,7 @@ permalink: /employment/
 <div class="container">
 <h1>Employment</h1>
   <dl>
-    <dt><img src= "/assets/pictures/wolf-logo.PNG" width="40" height="40"> Software Engineer Intern at <a href="http://www.wolfrobotics.com/" target="_blank">Wolf Robotics, A Lincoln Electric Company</a> [January 2018 - Present]</dt>
+    <dt><img src= "/assets/pictures/wolf-logo.PNG" width="40" height="40"> Software Engineer Intern at <a href="http://www.wolfrobotics.com/" target="_blank">Wolf Robotics, A Lincoln Electric Company</a> [January 2018 - February 2018]</dt>
     <dd><li>Project-based software implementation for robotic welding systems</li></dd>
     <dd><li>Generating reports on project milestones for defense industry</li></dd>
 <br>

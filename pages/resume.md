@@ -12,7 +12,7 @@ permalink: /resume/
 </li>
 <br>
 <li>
-<a href="/assets/documents/cv_2018_online.pdf" target="_blank"><img src= "/assets/pictures/pdf_icon.PNG" width="60" height="60">CV [Last updated: 12/10/2017]</a> 
+<a href="/assets/documents/cv_2018_online.pdf" target="_blank"><img src= "/assets/pictures/pdf_icon.PNG" width="60" height="60">CV [Last updated: 03/03/2018]</a> 
 </li>
 </ul>
 
