@@ -8,19 +8,20 @@ permalink: /
   <div style="background:#008B8B" class="jumbotron text-center">
     <h1><img src="{{ "/assets/pictures/self-picture.PNG" | relative_url }}" class="img-circle" style="vertical-align:middle" width="100" height="100"><font color="white"> Zachary Nahman</font></h1>
     <p class="lead">
-    <a class="btn btn-primary btn-lg" href="https://www.facebook.com/znahman" target="blank" role="button">Facebook</a>
+    <a class="btn btn-primary btn-lg" href="https://twitter.com/znahman0" target="blank" role="button">Twitter</a>
     <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/zachary-nahman-50437a7b"   target="blank" role="button">LinkedIn</a>
     <a class="btn btn-primary btn-lg" href="https://github.com/znahman" target="blank" role="button">GitHub</a>
   </p>
   </div>
-  
+
   <p>
-  "Hello World!" This website will serve as an information repository as well as a tool for practicing web design. Thank you for visiting!
+  "Hello World!" My name is Zachary Nahman (though I go by Zach), and I am graduate student in Computer Science at the Colorado School of Mines. I am deeply passionate about technology and software and enjoy spending my time learning about new and exciting tech. This website serves as a tool to display what's going on lately in my life and to showcase work that I've done. Thank you for visiting!
   </p>
   <br>
   <p>
-  The first iteration of this website was from raw HTML. I quickly found it tedious to manually update
-  every page in order to make a single change. A second approach was attempted using laravel php framework. Laravel was great to learn about, but was a bit too cumbersome for a portfolio specifically. Finally, I found jekyll static website generator. This latest version is made using jekyll. More info on jekyll can be in the links found below!
+  This website is built using jekyll static website generator (more info can found in the "Links" section below). <img src="/assets/pictures/jekyll-logo.PNG" height="40px" width="100px">
+  <br>
+  The layout is custom made using bootstrap elements. All of the source code is available on my github. Feel free to fork the repo if you'd like to use the same layout!
   </p>
 
   <div class="container">
@@ -36,12 +37,13 @@ permalink: /
       <div class="col-sm-6" align="left">
         <h3 align="center">Links:</h3>
         <ul>
+          <li><a href="https://www.hackerrank.com/znahman" target="blank">HackerRank Profile</a></li>
           <li><a href="http://hcr.mines.edu/" target="blank">Mines Human-Centered Robotics Lab</a></li>
           <li><a href="https://jekyllrb.com/" target="blank">Jekyll - Static Website Generator</a></li>
           <li><a href="http://hackertyper.com/" target="blank">Hacker Typer</a></li>
         </ul>
       </div>
     </div>
-  </div> 
+  </div>
 
 </div>
