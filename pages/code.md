@@ -7,12 +7,9 @@ permalink: /code/
     <h1>Code</h1>
 
     <p>
-    I'm slowly beginning to use version control for every file that I frequently interact with. If you have any interest in viewing/branching/pulling any of my public repositories, please check out my github.
-
-    The latest implementation of this website using jekyll has its own repository called resume-site.
+    I'm most familiar with Java but I love learning and practicing new languages. Code that I write can be found on my GitHub and I use HackerRank to practice (links below).
     </p>
 
-    <span class ="border-1">
-    <a href="https://github.com/znahman" target="blank"><img style="border:3px solid black;" src="/assets/pictures/github-logo.PNG"  height="150px" width="300px"></a>
-    </span>
+    <a href="https://www.hackerrank.com/znahman" target="blank"><img style="border-radius: 10px; border:1px solid gray;" src="/assets/pictures/hackerrank-logo.PNG"  height="100px" width="200px"></a>
+    <a href="https://github.com/znahman" target="blank"><img style="border-radius: 10px; border:1px solid gray;" src="/assets/pictures/github-logo.PNG"  height="100px" width="200px"></a>
 </div>

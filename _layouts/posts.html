@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+  {% include navbar.html %}
+
+  <body>
+      <div class="container">
+        {% for post in site.posts %}
+            <h4><a href="{{ post.url }}"><img style="border-radius:10px; border:1px solid gray;" src={{post.picture}} height="100" width="100"></img>    {{ post.title }}</a> <small><span class="date"><i class="fa fa-clock-o"></i> <strong>Posted: {{ post.date | date: "%m-%d-%Y"}}</strong></span></small></h4>
+
+        {% endfor %}
+
+      </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+  {% include navbar.html %}
+
+
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="container">
+        <a class="btn btn-primary" href="/blog" role="button">Back to Blog Posts</a>
+        <h2>{{page.title}}</h2>
+        <p>{{page.content}}</p>
+      </div>
+    </main>
+  </body>
+</html>
