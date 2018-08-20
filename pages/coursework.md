@@ -1,5 +1,5 @@
 ---
 layout: courses
-title: Coursework
+title: ZN Coursework
 permalink: /coursework/
 ---

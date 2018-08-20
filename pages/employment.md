@@ -1,14 +1,18 @@
 ---
 layout: default
-title: Employment
+title: ZN Employment
 permalink: /employment/
 ---
 <div class="container">
 <h1>Employment</h1>
   <dl>
-    <dt><img src= "/assets/pictures/mda-logo.PNG" width="100" height="35"> Robotics Engineer Intern at <a href="http://www.mdacorp-us.com/" target="_blank">MDA US Systems</a> [May 2018 - August 2018]</dt>
+    <dt><img src= "/assets/pictures/ssl-logo.PNG" width="100" height="50"> Robotics Engineer Intern at <a href="http://sslmda.com/" target="_blank">SSL Robotics LLC</a> [May 2018 - August 2018]</dt>
         <dd><li>In support of the RSGS (robotic servicing of geosynchronous satellites) project, I built a test suite using Ruby within the COSMOS embedded hardware controller for testing of robot actuators.</li></dd>
-        <dd><li>I wrote test procedures for test hardware and flight hardware utilizing technical writing skills</li></dd>
+        <dd><li>Wrote test procedures for test hardware and flight hardware utilizing technical writing skills</li></dd>
+        <dd><li>Utilized ROS (robot operating system) to demonstrate potential capabilities of a Velodyne VLP-16 LiDAR related to space robotics
+        </li></dd>
+        <dd><li>Created a guide and demonstration for using the ROS package MoveIt for generating robot motion (7 DOF robot arm)
+        </li></dd>
     <br>
     <dt><img src= "/assets/pictures/wolf-logo.PNG" width="40" height="40"> Software Engineer Intern at <a href="http://www.wolfrobotics.com/" target="_blank">Wolf Robotics, A Lincoln Electric Company</a> [January 2018 - February 2018]</dt>
         <dd><li>Project-based software implementation for robotic welding systems</li></dd>
