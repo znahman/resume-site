@@ -5,6 +5,7 @@ permalink: /employment/
 ---
 <div class="container">
 <h1>Employment</h1>
+<hr style="height:2px;border:none;color:#333;background-color:#333;" />
   <dl>
     <dt><img src= "/assets/pictures/ssl-logo.PNG" width="100" height="50"> Robotics Engineer Intern at <a href="http://sslmda.com/" target="_blank">SSL Robotics LLC</a> [May 2018 - August 2018]</dt>
         <dd><li>In support of the RSGS (robotic servicing of geosynchronous satellites) project, I built a test suite using Ruby within the COSMOS embedded hardware controller for testing of robot actuators.</li></dd>

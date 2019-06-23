@@ -14,15 +14,11 @@ permalink: /
   </p>
   </div>
 
-  <p>
-  "Hello World!" My name is Zachary Nahman (though I go by Zach), and I am graduate student in Computer Science at the Colorado School of Mines. I am deeply passionate about technology and software and enjoy spending my time learning about new and exciting tech. This website serves as a tool to display what's going on lately in my life and to showcase work that I've done. Thank you for visiting!
-  </p>
-  <br>
-  <p>
-  This website is built using jekyll static website generator (more info can found in the "Links" section below). <img src="/assets/pictures/jekyll-logo.PNG" height="40px" width="100px">
-  <br>
-  The layout is custom made using bootstrap elements. All of the source code is available on my github. Feel free to fork the repo if you'd like to use the same layout!
-  </p>
+  <div class="well">
+    <p>
+    "Hello World!" My name is Zach. Welcome to my home on the web! I am graduate student in Computer Science at the Colorado School of Mines. I am deeply passionate about technology and software and enjoy spending my time learning about new and exciting tech. This website serves as a tool to display what's going on lately in my life and to showcase work that I've done. Thank you for visiting!
+    </p>
+  </div>
 
   <div class="container">
     <div class="row">
@@ -51,7 +47,7 @@ permalink: /
           <li><a href="http://hackertyper.com/" target="blank">Hacker Typer</a></li>
         </ul>
       </div>
+      
     </div>
   </div>
-
 </div>
